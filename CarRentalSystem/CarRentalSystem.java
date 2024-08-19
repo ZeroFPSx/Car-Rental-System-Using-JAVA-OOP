@@ -100,7 +100,7 @@ public class CarRentalSystem {
           System.out.println("Customer Name: " + newCustomer.getName());
           System.out.println("Car: " + selectedCar.carBrand() + " " + selectedCar.getCarModel());
           System.out.println("Rental Days: " + rentalDays);
-          System.out.println("Total Price: " + totalPrice);
+          System.out.println("Total Price: " + totalPrice + "$");
 
           System.out.println("\nConfirm rental (Y/N): ");
           String confirm = sc.nextLine();
