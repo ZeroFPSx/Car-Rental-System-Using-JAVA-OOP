@@ -67,7 +67,7 @@ public class CarRentalSystem {
         System.out.println("\nAvailable Cars");
         for (Car car : cars) {
           if (car.isAvailable()) {
-            System.out.println(car.getCarId() + "  - " + car.carBrand() + " " + car.getCarModel());
+            System.out.println(car.getCarId() + "  - " + car.getCarModel() + " " + car.carBrand());
           }
         }
 
